@@ -13,6 +13,11 @@
 }
 
 @font-face {
+    font-family: 'tekken 3';
+    src: url('../fonts/tarrget/tarrget.ttf');
+}
+
+@font-face {
     font-family: 'luta';
     src: url('../fonts/fff/FFF_Medium_TRIAL.ttf');
 }
@@ -20,6 +25,7 @@
 :root {
     --font-título: 'tekken', sans-serif;
     --font-título-2: 'tekken 2', sans-serif;
+    --font-título-normal: 'tekken 3', sans-serif;
     --font-destaque: 'luta', sans-serif;
     --font-normal: arial, helvetica, sans-serif;
 
@@ -86,8 +92,22 @@ article {
     text-align: justify;
 }
 
+article h2 {
+    font-family: var(--font-título-normal);
+    font-weight: normal;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+}
+
+article p {
+    font-family: var(--font-normal);
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
+
 article img {
-    width: 360px;
+    width: 370px;
     display: flex;
     margin: auto;
     padding: 10px;
@@ -95,4 +115,7 @@ article img {
 
 footer {
     text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
 }
