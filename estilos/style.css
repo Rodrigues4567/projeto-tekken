@@ -113,7 +113,7 @@ article p {
 }
 
 article img#jinimg {
-    width: 370px;
+    width: 75vw;
     display: flex;
     margin: auto;
     padding: 10px;
