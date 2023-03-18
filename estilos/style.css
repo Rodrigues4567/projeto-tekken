@@ -113,7 +113,7 @@ article p {
 }
 
 article img#jinimg {
-    width: 380px;
+    width: 370px;
     display: flex;
     margin: auto;
     padding: 10px;
@@ -129,6 +129,7 @@ article div.container {
     background-image: linear-gradient(to bottom, #cc0404, #680404);
     height: 600px;
     width: 90vw;
+    margin: auto;
     border-radius: 10px;
 }
 
@@ -157,5 +158,5 @@ footer {
     text-align: center;
     background-color: black;
     color: white;
-    padding: 5px;
+    padding: 10px;
 }
