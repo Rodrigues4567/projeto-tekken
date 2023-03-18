@@ -113,9 +113,11 @@ article p {
 }
 
 article img#jinimg {
-    width: 350px;
+    width: 380px;
     display: flex;
     margin: auto;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
 }
 
@@ -128,7 +130,7 @@ article div.container {
 
     background-image: linear-gradient(to bottom, #cc0404, #680404);
     height: 600px;
-    width: 90vw;
+    width: 85vw;
     margin: auto;
     border-radius: 10px;
 }
