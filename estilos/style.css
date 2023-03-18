@@ -47,7 +47,7 @@ body, html {
 }
 
 header {
-    background-color: #ca0505;
+    background-image: linear-gradient(to bottom, #cc0404 55%, #8d0707);
     padding-bottom: 9px;
 }
 
@@ -87,7 +87,7 @@ article {
     padding: 10px;
     margin: auto;
     background-color: white;
-    height: 100vh;
+    height: 100%;
     width: 90vw;
     text-align: justify;
 }
@@ -99,6 +99,12 @@ article h2 {
     padding-bottom: 10px;
 }
 
+article h2#lutador {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 20px;
+}
+
 article p {
     font-family: var(--font-normal);
     line-height: 1.5rem;
@@ -106,11 +112,45 @@ article p {
     text-indent: 20px;
 }
 
-article img {
-    width: 370px;
+article img#jinimg {
+    width: 380px;
     display: flex;
     margin: auto;
     padding: 10px;
+}
+
+article div.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    background-image: linear-gradient(to bottom, #cc0404, #680404);
+    height: 600px;
+    width: 90vw;
+    border-radius: 10px;
+}
+
+article div.fox img {
+    height: 160px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
+}
+
+article div.king img {
+    height: 160px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
+    border: 2px solid black;
+}
+
+article div.eddy img {
+    height: 160px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
+    border: 2px solid black;
 }
 
 footer {
