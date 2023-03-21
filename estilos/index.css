@@ -119,7 +119,7 @@ article div.container {
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
-    gap: 10px;
+    gap: 15px;
     row-gap: 40px;
 
     background-image: linear-gradient(to bottom, #cc0404, #680404);
