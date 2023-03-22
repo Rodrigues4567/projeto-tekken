@@ -54,7 +54,7 @@ header h1 {
     font-size: 3.2rem;
     font-weight: normal;
     padding-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 
 header p {
@@ -70,7 +70,7 @@ nav a {
     color: black;
     font-family: var(--font-normal);
     font-weight: bold;
-    padding: 10px;
+    padding: 9px;
 }
 
 nav a:hover {
@@ -126,6 +126,7 @@ article div.container {
     width: 85vw;
     margin: auto;
     border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
 }
 
 article div.fox img {

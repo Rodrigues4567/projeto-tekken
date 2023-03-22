@@ -1,5 +1,39 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'tekken';
+    src: url('../fonts/tarrget/tarrgetacadital.ttf');
+}
+
+@font-face {
+    font-family: 'tekken 2';
+    src: url('../fonts/tarrget/tarrgetital.ttf');
+}
+
+@font-face {
+    font-family: 'tekken 3';
+    src: url('../fonts/tarrget/tarrget.ttf');
+}
+
+@font-face {
+    font-family: 'luta';
+    src: url('../fonts/fff/FFF_Medium_TRIAL.ttf');
+}
+
+:root {
+    --font-título: 'tekken', sans-serif;
+    --font-título-2: 'tekken 2', sans-serif;
+    --font-título-normal: 'tekken 3', sans-serif;
+    --font-destaque: 'luta', sans-serif;
+    --font-normal: arial, helvetica, sans-serif;
+
+    --cor-vermelho: #BF0404;
+    --cor4: #404040;
+    --cor3: #595959;
+    --cor2: #737373;
+    --cor1: #8C8C8C;
+}
+
 /* VERSÃO PARA COMPUTADORES E NOTEBOOKS */
 
 body, html {
@@ -9,9 +43,39 @@ body, html {
     background-position: left;
 }
 
+header {
+    background-image: linear-gradient(to bottom, #cc0404 25%, #530606);
+}
+
+header h1 {
+    font-family: var(--font-título);
+    font-size: 5rem;
+    padding-top: 30px;
+    color: black;
+}
+
+header div.linhah {
+    margin: auto;
+    border: 2px solid rgb(0, 0, 0);
+    width: 270px;
+    margin-bottom: 10px;
+}
+
+header p {
+    padding-bottom: 30px;
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+}
+
+nav a {
+    color: white;
+    margin: 2px;
+    border: 1px solid black;
+}
+
 article {
-    width: 950px;
-    background-color: rgba(255, 255, 255, 0.705);
+    width: 920px;
+    background-color: rgba(255, 255, 255, 0.726);
 }
 
 article div.linha {
