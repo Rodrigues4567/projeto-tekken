@@ -129,6 +129,13 @@ article div.container {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
 }
 
+article div.container img:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+    border: 2px solid rgba(255, 255, 255, 0.788);
+    transform: translate(8px, -8px);
+    transition: transform 0.3s;
+}
+
 article div.fox img {
     height: 160px;
     border-radius: 10px;
