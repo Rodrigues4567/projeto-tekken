@@ -129,7 +129,7 @@ article div.container {
     gap: 5px;
 
     background-image: linear-gradient(to bottom, #cc0404, #680404);
-    height: 600px;
+    height: 610px;
     width: 85vw;
     margin: auto;
     border-radius: 10px;
@@ -155,6 +155,21 @@ article div.jin img {
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
     border: 2px solid black;
+}
+
+article div.button button {
+    padding: 15px;
+    width: 160px;
+    background-color: white;
+    font-family: var(--font-título-normal);
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+article div.button button:hover {
+    background-color: red;
 }
 
 footer {
