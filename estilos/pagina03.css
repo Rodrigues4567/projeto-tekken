@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-/* VERSÃO MOBILE-FIRST */
-
 @font-face {
     font-family: 'tekken';
     src: url('../fonts/tarrget/tarrgetacadital.ttf');
@@ -96,7 +94,7 @@ article h2 {
     font-family: var(--font-título-normal);
     font-weight: normal;
     font-size: 1.7rem;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     margin-top: 5px;
 }
 
@@ -114,7 +112,7 @@ article p {
     text-indent: 20px;
 }
 
-article img#jinimg {
+article img#king {
     width: 350px;
     display: flex;
     margin: auto;
@@ -145,14 +143,14 @@ article div.fox img {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
 }
 
-article div.king img {
+article div.eddy img {
     height: 160px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
     border: 2px solid black;
 }
 
-article div.eddy img {
+article div.jin img {
     height: 160px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
