@@ -82,6 +82,10 @@ article div.linha {
     margin: auto;
 }
 
+article mark {
+    background-color: red;
+}
+
 article div.container {
     width: 800px;
     height: 500px;
