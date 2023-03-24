@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-/* VERSÃO MOBILE-FIRST */
-
 @font-face {
     font-family: 'tekken';
     src: url('../fonts/tarrget/tarrgetacadital.ttf');
@@ -114,7 +112,7 @@ article p {
     text-indent: 20px;
 }
 
-article img#jinimg {
+article img#steve {
     width: 350px;
     display: flex;
     margin: auto;
@@ -145,7 +143,7 @@ article div.container img:hover {
     transition: transform 0.3s;
 }
 
-article div.fox img {
+article div.jin img {
     height: 160px;
     border-radius: 10px;
     border: 2px solid black;

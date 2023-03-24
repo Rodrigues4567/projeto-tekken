@@ -136,6 +136,13 @@ article div.container {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
 }
 
+article div.container img:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+    border: 2px solid rgba(255, 255, 255, 0.788);
+    transform: translate(7px, -7px);
+    transition: transform 0.3s;
+}
+
 article div.fox img {
     height: 160px;
     border-radius: 10px;
@@ -169,7 +176,7 @@ article div.button button {
 }
 
 article div.button button:hover {
-    background-color: red;
+    background-color: rgb(163, 163, 163);
 }
 
 footer {
