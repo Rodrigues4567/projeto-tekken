@@ -112,8 +112,8 @@ article p {
     text-indent: 20px;
 }
 
-article img#steve {
-    width: 350px;
+article img.steve {
+    width: 340px;
     display: flex;
     margin: auto;
     justify-content: center;
